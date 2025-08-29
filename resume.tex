@@ -109,6 +109,10 @@
       {KeyBanc Capital Markets}{Cleveland, OH}
       {Quantitative Analyst}{July 2021 - Present}
       \resumeItemListStart
+        \resumeItem{Backtesting Engine}
+            {Engineered a backtesting framework in Rust to evaluate the performance of trading strategies and models using historical market data, enabling traders to assess risk and optimize strategies before deployment. Achieved a 5+ Sharpe ratio on Request-for-Quote (RFQ) trading strategies while adjusting for liquidation penalties and financing assumptions.}
+        \resumeItem{Trade Optimization}
+            {Developed a Mixed Integer Linear Programming (MILP) model using Python to optimize for probabilistic reward and risk tradeoffs in corporate bond trading. The model incorporates trade probabilities and risk constraints to maximize expected returns and risk measures.}
         \resumeItem{Trading Application}
             {Built a realtime fixed income trading application using TypeScript, React, AgGrid, Kafka, and FastAPI that supports thousands of updates per second, tens of millions of messages per day, matrix pricing, formulas, and 5 concurrent corporate bond traders to manage risk and respond to RFQs.}
         \resumeItem{Pricing Engine}
@@ -117,16 +121,10 @@
             {Generated model features in BigQuery from various sources with window functions to detrend and predict g-spread dynamics using Random Forest models. Deployed models in real-time trading and analytics.}
         \resumeItem{Visual Analytics}
             {Deployed 8 Streamlit, React, or Tableau applications with over 20 daily active users improving reporting accuracy to regulators and clients.}
-        \resumeItem{Vendor Management}
-          {Consulted with vendors to gather firewall, connectivity, public/private key details from OneTick, Refinitiv, Bloomberg, and MarketAxess to enable connectivity between internal cloud environments and vendor APIs, FIX engines, and data products.}
-        \resumeItem{Data Transformation}
-            {Productionized 11 ETL pipelines using Airflow, BigQuery, Cloud Storage, and Postgres.}
         \resumeItem{Unstructured Data}
           {Utilized BigQuery to produce weekly sell-side research products consisting of over 1100 unique companies from our terabyte-scale consumer transaction dataset.}
         \resumeItem{Trading Infrastructure}
           {Architected and wrote Java application to interface with MarketAxess FIX engine to send algorithmically-generated spread to benchmark levels for investment grade bonds. Streamed live positions and trade data from TOMS API.}
-        \resumeItem{Cloud Migration}
-            {Gathered requirements from internal team, designed, and implemented a cloud-native solution to promote usability and cost savings. Collaborated with internal technology teams to abide by security model for publicly available endpoints and data loss prevention initiatives.}
         \resumeItem{Generative Modeling}
             {Trained a generative adversarial network (GAN) with TensorFlow to simulate equity order flow data. Used synthetic data to backtest market impact models.}
         \resumeItem{Volatility Modeling}
@@ -153,11 +151,11 @@
 \section{Technical Skills}
   \resumeSubHeadingListStart
     \item{
-            \textbf{Languages}{: Python, Javascript, Java, SQL}
+            \textbf{Languages}{: Python, Javascript, Java, SQL, Rust}
       \hfill
     }
 \item {
-      \textbf{Technologies}{: BigQuery, Linux, Docker, git, TypeScript, React, Kafka, Redis, Flask}
+      \textbf{Technologies}{: BigQuery, Linux, Docker, git, TypeScript, React, Kafka, Redis, FastAPI, Airflow, QuantLib}
 }
 \item {
       \textbf{Licenses}{: Securities Industry Essentials, Series 7}
