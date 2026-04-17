@@ -84,7 +84,7 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://linkedin.com/in/jasonpetri/}{\Large Jason F. Petri}} & \href{mailto:jasonfpetri@outlook.com}{jasonfpetri@outlook.com}\\
+  \textbf{\href{https://linkedin.com/in/jasonpetri/}{\Large Jason F. Petri}} & \href{mailto:jasonfpetri@gmail.com}{jasonfpetri@gmail.com}\\
   \href{http://linkedin.com/in/jasonpetri/}{linkedin.com/in/jasonpetri} & \href{http://github.com/jptree}{github.com/jptree} \\
 \end{tabular*}
 
@@ -109,19 +109,23 @@
       {KeyBanc Capital Markets}{Cleveland, OH}
       {Quantitative Analyst}{July 2021 - Present}
       \resumeItemListStart
+        \resumeItem{Systematic IG Trading}
+            {Realized a 2+ Sharpe over a trailing 12 month window on an investment grade systematic trading strategy.}
         \resumeItem{Backtesting Engine}
-            {Engineered a backtesting framework in Rust to evaluate the performance of trading strategies and models using historical market data, enabling traders to assess risk and optimize strategies before deployment. Achieved a 5+ Sharpe ratio on Request-for-Quote (RFQ) trading strategies while adjusting for liquidation penalties and financing assumptions.}
+            {Engineered a backtesting framework in Rust to evaluate the performance of trading strategies and models using historical market data, enabling traders to assess risk and optimize strategies before deployment. Achieved a 3+ Sharpe ratio on Request-for-Quote (RFQ) trading strategies while adjusting for liquidation penalties and financing assumptions.}
         \resumeItem{Trade Optimization}
             {Developed a Mixed Integer Linear Programming (MILP) model using Python to optimize for probabilistic reward and risk tradeoffs in corporate bond trading. The model incorporates trade probabilities and risk constraints to maximize expected returns and risk measures.}
         \resumeItem{Trading Application}
             {Built a realtime fixed income trading application using TypeScript, React, AgGrid, Kafka, and FastAPI that supports thousands of updates per second, tens of millions of messages per day, matrix pricing, formulas, and 5 concurrent corporate bond traders to manage risk and respond to RFQs.}
+        \resumeItem{Generative AI Automations}
+            {Automated manual process of unstructured data collection for institutional bank workflows using Google Gemini AI models, PydanticAI, and a React frontend application.}
         \resumeItem{Pricing Engine}
             {Built a microservice API with Refinitiv bond fundamental data, QuantLib, and BPIPE treasury curves to support over 3000 calculations per second of duration, yield, price, net present value, and yield-to-worst for investment grade corporate bonds.}
         \resumeItem{Spread Modeling}
             {Generated model features in BigQuery from various sources with window functions to detrend and predict g-spread dynamics using Random Forest models. Deployed models in real-time trading and analytics.}
         \resumeItem{Visual Analytics}
             {Deployed 8 Streamlit, React, or Tableau applications with over 20 daily active users improving reporting accuracy to regulators and clients.}
-        \resumeItem{Unstructured Data}
+        \resumeItem{Alternative Data}
           {Utilized BigQuery to produce weekly sell-side research products consisting of over 1100 unique companies from our terabyte-scale consumer transaction dataset.}
         \resumeItem{Trading Infrastructure}
           {Architected and wrote Java application to interface with MarketAxess FIX engine to send algorithmically-generated spread to benchmark levels for investment grade bonds. Streamed live positions and trade data from TOMS API.}
@@ -150,16 +154,12 @@
 %--------PROGRAMMING SKILLS------------
 \section{Technical Skills}
   \resumeSubHeadingListStart
-    \item{
-            \textbf{Languages}{: Python, Javascript, Java, SQL, Rust}
-      \hfill
-    }
-\item {
-      \textbf{Technologies}{: BigQuery, Linux, Docker, git, TypeScript, React, Kafka, Redis, FastAPI, Airflow, QuantLib}
-}
-\item {
-      \textbf{Licenses}{: Securities Industry Essentials, Series 7}
-}
+    \resumeSubItem{Languages}
+      {Python, Javascript, Java, SQL, Rust}
+    \resumeSubItem{Technologies}
+      {BigQuery, Linux, Docker, git, TypeScript, React, Kafka, Redis, FastAPI, Airflow, QuantLib}
+    \resumeSubItem{Licenses}
+      {Securities Industry Essentials, Series 7}
   \resumeSubHeadingListEnd
 
 
